@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.scorekeeper.MainActivity">
+
+    <ImageView
+        style="@style/Main_Image_Style"
+        android:src="@drawable/background_image" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/no_padding_no_margin_value"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="@dimen/no_padding_no_margin_value"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/no_padding_no_margin_value"
+                    android:layout_marginLeft="@dimen/margin_large_x"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/padding_medium"
+                    android:text="@string/Your_Score_Text"
+                    android:textColor="@color/YourScore_TextColor"
+                    android:textSize="@dimen/textSize_Scores_Texts"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Your_Score"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/no_padding_no_margin_value"
+                    android:layout_marginLeft="@dimen/margin_large_xx"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:padding="@dimen/padding_small"
+                    android:shadowColor="#000"
+                    android:shadowDx="4"
+                    android:shadowDy="4"
+                    android:shadowRadius="8"
+                    android:text="@string/Your_Score_Value"
+                    android:textColor="@color/YourScore_Value_TextColor"
+                    android:textSize="@dimen/TextSize_Value_of_Scores"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/no_padding_no_margin_value"
+                    android:layout_weight="4"
+                    android:gravity="center"
+                    android:padding="@dimen/padding_small" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="@dimen/margin_tiny"
+                    android:layout_marginLeft="@dimen/margin_large"
+                    android:layout_marginRight="@dimen/margin_medium"
+                    android:layout_marginTop="@dimen/margin_tiny"
+                    android:background="@drawable/roundshapebtn_purple"
+                    android:onClick="addOneForYourScore"
+                    android:shadowColor="#000"
+                    android:shadowDx="4"
+                    android:shadowDy="4"
+                    android:shadowRadius="8"
+                    android:text="@string/Button_Water_YourScore"
+                    android:textSize="@dimen/textSize_Buttons"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="@dimen/margin_tiny"
+                    android:layout_marginLeft="@dimen/margin_large"
+                    android:layout_marginRight="@dimen/margin_medium"
+                    android:layout_marginTop="@dimen/margin_tiny"
+                    android:background="@drawable/roundshapebtn_purple"
+                    android:onClick="addTwoForYourScore"
+                    android:shadowColor="#000"
+                    android:shadowDx="4"
+                    android:shadowDy="4"
+                    android:shadowRadius="8"
+                    android:text="@string/Button_Sleep_YourScore"
+                    android:textSize="@dimen/textSize_Buttons"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="@dimen/margin_tiny"
+                    android:layout_marginLeft="@dimen/margin_large"
+                    android:layout_marginRight="@dimen/margin_medium"
+                    android:layout_marginTop="@dimen/margin_tiny"
+                    android:background="@drawable/roundshapebtn_purple"
+                    android:onClick="addThreeForYourScore"
+                    android:shadowColor="#000"
+                    android:shadowDx="4"
+                    android:shadowDy="4"
+                    android:shadowRadius="8"
+                    android:text="@string/Button_FruitsAndVegetables_YourScore"
+                    android:textSize="@dimen/textSize_Buttons"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="@dimen/margin_tiny"
+                    android:layout_marginLeft="@dimen/margin_large"
+                    android:layout_marginRight="@dimen/margin_medium"
+                    android:layout_marginTop="@dimen/margin_tiny"
+                    android:background="@drawable/roundshapebtn_purple"
+                    android:onClick="addTenForYourScore"
+                    android:shadowColor="#000"
+                    android:shadowDx="4"
+                    android:shadowDy="4"
+                    android:shadowRadius="8"
+                    android:text="@string/Button_Exercise_YourScore"
+                    android:textSize="@dimen/textSize_Buttons"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/no_padding_no_margin_value"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/no_padding_no_margin_value"
+                    android:layout_marginRight="@dimen/margin_large_x"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:padding="@dimen/padding_medium"
+                    android:text="@string/Optimal_Score_Text"
+                    android:textColor="@color/OptimalScore_TextColor"
+                    android:textSize="@dimen/textSize_Scores_Texts"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Optimal_Score"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/no_padding_no_margin_value"
+                    android:layout_marginRight="@dimen/margin_large_xx"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:padding="@dimen/padding_medium"
+                    android:shadowColor="#000"
+                    android:shadowDx="4"
+                    android:shadowDy="4"
+                    android:shadowRadius="8"
+                    android:text="@string/Optimal_Score_Value"
+                    android:textColor="@color/OptimalScore_Value_TextColor"
+                    android:textSize="@dimen/TextSize_Value_of_Scores"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/no_padding_no_margin_value"
+                    android:layout_weight="4"
+                    android:gravity="center"
+                    android:padding="@dimen/padding_small" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="@dimen/margin_tiny"
+                    android:layout_marginLeft="@dimen/margin_medium"
+                    android:layout_marginRight="@dimen/margin_large"
+                    android:layout_marginTop="@dimen/margin_tiny"
+                    android:background="@drawable/roundshapebtn_bright_blue"
+                    android:onClick="addTwoForOptimalScore"
+                    android:shadowColor="#000"
+                    android:shadowDx="4"
+                    android:shadowDy="4"
+                    android:shadowRadius="8"
+                    android:text="@string/Button_Water_OptimalScore"
+                    android:textSize="@dimen/textSize_Buttons"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="@dimen/margin_tiny"
+                    android:layout_marginLeft="@dimen/margin_medium"
+                    android:layout_marginRight="@dimen/margin_large"
+                    android:layout_marginTop="@dimen/margin_tiny"
+                    android:background="@drawable/roundshapebtn_bright_blue"
+                    android:onClick="addEightForOptimalScore"
+                    android:shadowColor="#000"
+                    android:shadowDx="4"
+                    android:shadowDy="4"
+                    android:shadowRadius="8"
+                    android:text="@string/Button_Sleep_OptimalScore"
+                    android:textSize="@dimen/textSize_Buttons"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="@dimen/margin_tiny"
+                    android:layout_marginLeft="@dimen/margin_medium"
+                    android:layout_marginRight="@dimen/margin_large"
+                    android:layout_marginTop="@dimen/margin_tiny"
+                    android:background="@drawable/roundshapebtn_bright_blue"
+                    android:onClick="addSixForOptimalScore"
+                    android:shadowColor="#000"
+                    android:shadowDx="4"
+                    android:shadowDy="4"
+                    android:shadowRadius="8"
+                    android:text="@string/Button_FruitsAndVegetables_OptimalScore"
+                    android:textSize="@dimen/textSize_Buttons"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginBottom="@dimen/margin_tiny"
+                    android:layout_marginLeft="@dimen/margin_medium"
+                    android:layout_marginRight="@dimen/margin_large"
+                    android:layout_marginTop="@dimen/margin_tiny"
+                    android:background="@drawable/roundshapebtn_bright_blue"
+                    android:onClick="addThirtyForOptimalScore"
+                    android:shadowColor="#000"
+                    android:shadowDx="4"
+                    android:shadowDy="4"
+                    android:shadowRadius="8"
+                    android:text="@string/Button_Exercise_OptimalScore"
+                    android:textSize="@dimen/textSize_Buttons"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="@dimen/margin_extra_large"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/margin_tiny_x"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginRight="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_tiny"
+            android:background="@drawable/roundshapebtn_gray"
+            android:onClick="resetScore"
+            android:shadowColor="#000"
+            android:shadowDx="4"
+            android:shadowDy="4"
+            android:shadowRadius="8"
+            android:text="@string/Button_ResetScores"
+            android:textSize="@dimen/textSize_Buttons"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>

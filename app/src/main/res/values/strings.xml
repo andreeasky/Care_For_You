@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Score Keeper</string>
+    <string name="ContentDescription">Image</string>
+    <string name="Your_Score_Text">Your Score</string>
+    <string name="Your_Score_Value">0</string>
+    <string name="Button_Water_YourScore">WATER (+1)</string>
+    <string name="Button_Sleep_YourScore">SLEEP (+2)</string>
+    <string name="Button_FruitsAndVegetables_YourScore">FRUITS AND VEGETABLES (+3)</string>
+    <string name="Button_Exercise_YourScore">EXERCISE (+10)</string>
+    <string name="Optimal_Score_Text">Optimal Score</string>
+    <string name="Optimal_Score_Value">0</string>
+    <string name="Button_Water_OptimalScore">WATER (2)</string>
+    <string name="Button_Sleep_OptimalScore">SLEEP (8)</string>
+    <string name="Button_FruitsAndVegetables_OptimalScore">FRUITS AND VEGETABLES (6)</string>
+    <string name="Button_Exercise_OptimalScore">EXERCISE (30)</string>
+    <string name="Button_ResetScores">RESET SCORES</string>
+
+
+
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#455A64</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="YourScore_TextColor">#C51162</color>
+    <color name="YourScore_Value_TextColor">#FF4081</color>
+    <color name="OptimalScore_TextColor">@android:color/holo_blue_dark</color>
+    <color name="OptimalScore_Value_TextColor">@android:color/holo_blue_bright</color>
+    <color name="RoundShapeBtn_Purple_TextColor">#FF4081</color>
+    <color name="RoundShapeBtn_Gray_TextColor">#607D8B</color>
+    <color name="RoundShapeBtn_Blue_Bright_TextColor">@android:color/holo_blue_bright</color>
+</resources>
