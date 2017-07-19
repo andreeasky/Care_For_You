@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Score Keeper</string>
+    <string name="app_name">Help for You</string>
     <string name="ContentDescription">Image</string>
     <string name="Your_Score_Text">Your Score</string>
     <string name="Your_Score_Value">0</string>
@@ -14,7 +14,5 @@
     <string name="Button_FruitsAndVegetables_OptimalScore">FRUITS AND VEGETABLES (6)</string>
     <string name="Button_Exercise_OptimalScore">EXERCISE (30)</string>
     <string name="Button_ResetScores">RESET SCORES</string>
-
-
 
 </resources>
